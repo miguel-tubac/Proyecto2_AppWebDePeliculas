@@ -16,13 +16,13 @@ comentarios = []
 usuarios.append(Usuario('Usuario', 'Administrador', 'admin', 'admin', 1).toDict())
 
 # tipo 2 para clientes
-usuarios.append(Usuario('William', 'Borrayo', 'William58_0', '1234', 2).toDict())
+usuarios.append(Usuario('Miguel', 'Tubac', 'Miguel', '1234', 2).toDict())
 
 # comentarios ejemplo
-comentarios.append(Comentario('Super Mario Bros', 'William58_0', 'estuvo bonita0').toDict())
-comentarios.append(Comentario('Super Mario Bros', 'OtroUsuario', 'estuvo fea0').toDict())
-comentarios.append(Comentario('Los vengadores', 'William58_0', 'estuvo fea1').toDict())
-comentarios.append(Comentario('Los vengadores', 'OtroUsuario', 'estuvo bonita1').toDict())
+comentarios.append(Comentario('Super Mario Bros', 'Miguel', 'Estuvo bonita').toDict())
+comentarios.append(Comentario('Super Mario Bros', 'OtroUsuario', 'Estuvo fea').toDict())
+comentarios.append(Comentario('Los vengadores', 'Miguel', 'Estuvo buena').toDict())
+comentarios.append(Comentario('Los vengadores', 'OtroUsuario', 'Estuvo bien').toDict())
 
 app = Flask(__name__)
 CORS(app)
